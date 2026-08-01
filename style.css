@@ -1117,6 +1117,25 @@ box-shadow: 0 20px 40px rgba(47, 128, 255, 0.15);
     box-shadow: 0 20px 40px rgba(47, 128, 255, 0.1);
 }
 
+.pos-card {
+    background-image: url('images/pos.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.pos-card .service-icon {
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+}
+
+.pos-card h3,
+.pos-card p {
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
 .service-icon {
 width: 70px;
 height: 70px;
