@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<title>Basam Ali | Web & App Developer</title>
+
+<meta name="description"
+    content="Professional portfolio of Basam Ali, Web and App Developer specializing in modern websites, mobile applications, Firebase, and digital business systems.">
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Professional icons -->
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<!-- Google Fonts for RTL languages -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700;800&family=Noto+Kufi+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+```
+
+</head>
+
+<body>
+
+```
+<!-- Background -->
+<div class="background-glow glow-one"></div>
+<div class="background-glow glow-two"></div>
+
+<!-- Navigation -->
+<header class="navbar">
+
+    <a href="#home" class="logo">
+        <span>&lt;</span>Basam<span>/&gt;</span>
+    </a>
+
+    <nav id="nav-menu">
+        <a href="#home" data-i18n="nav.home">Home</a>
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#skills" data-i18n="nav.skills">Skills</a>
+        <a href="#projects" data-i18n="nav.projects">Projects</a>
+        <a href="#education" data-i18n="nav.education">Education</a>
+        <a href="#languages" data-i18n="languages.title">Languages</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+
+    <div class="nav-controls">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+        <div class="language-switcher">
+            <button class="lang-btn" id="lang-btn" aria-label="Switch language">
+                <img id="current-lang-flag" src="https://cdn-icons-png.flaticon.com/128/4009/4009124.png" alt="EN" class="lang-flag">
+                <span id="current-lang">EN</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="lang-dropdown" id="lang-dropdown">
+                <button data-lang="en" class="lang-option active">
+                    <img src="https://cdn-icons-png.flaticon.com/128/4009/4009124.png" alt="English" class="lang-flag">
+                    English
+                </button>
+                <button data-lang="ar" class="lang-option">
+                    <img src="https://cdn-icons-png.flaticon.com/128/16022/16022229.png" alt="العربية" class="lang-flag">
+                    العربية
+                </button>
+                <button data-lang="ku" class="lang-option">
+                    <img src="https://cdn-icons-png.flaticon.com/128/12359/12359942.png" alt="کوردی" class="lang-flag">
+                    کوردی
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <a href="#contact" class="nav-button">
+        <span data-i18n="nav.letsTalk">Let's Talk</span>
+    </a>
+
+    <button class="menu-button" id="menu-button">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+</header>
+
+
+<!-- Hero -->
+<main>
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="hello" data-i18n="hero.hello">
+                HELLO, I'M
+            </p>
+
+            <h1>
+                <span class="typing-name" data-i18n="hero.fullName">Basam Ali</span><span class="typing-cursor">|</span>
+            </h1>
+
+            <h2 data-i18n="hero.title">
+                Web & App Developer
+            </h2>
+
+            <p class="hero-description" data-i18n="hero.description">
+                I create modern, responsive, and professional digital
+                experiences using web technologies, mobile development,
+                Firebase, and innovative software solutions.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="primary-button">
+                    <span data-i18n="hero.viewProjects">View My Projects</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="#contact" class="secondary-button">
+                    <span data-i18n="hero.contactMe">Contact Me</span>
+                </a>
+
+            </div>
+
+            <div class="social-links">
+
+                <!-- Change these links -->
+                <a href="https://github.com/basaminfo9"
+                   target="_blank"
+                   aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="https://www.instagram.com/smartserve_tech?igsh=MWcwNW50emg3dTNmcg%3D%3D&utm_source=qr"
+                   target="_blank"
+                   aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://www.tiktok.com/@smartserve1?_r=1&_t=ZS-98WHY6IXDy0"
+                   target="_blank"
+                   aria-label="TikTok">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+
+                <a href="https://www.facebook.com/share/1K3ViqYo79/?mibextid=wwXIfr"
+                   target="_blank"
+                   aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="mailto:basaminfo9@gmail.com"
+                   aria-label="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-image">
+
+            <div class="image-border">
+
+                <!-- Add your photo inside images/profile.jpg -->
+                <img
+                    src="images/profile.png"
+                    alt="Basam Ali - Web and App Developer"
+                >
+
+            </div>
+
+            <div class="experience-card">
+
+                <strong>6+</strong>
+
+                <span data-i18n="hero.experience">
+                    Years of Learning<br>
+                    & Development
+                </span>
+
+            </div>
+
+            <div class="developer-card">
+
+                <i class="fa-solid fa-code"></i>
+
+                <span data-i18n="hero.developer">
+                    Building digital<br>
+                    solutions
+                </span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About -->
+    <section id="about" class="section">
+
+        <div class="section-heading">
+
+            <p data-i18n="about.title">ABOUT ME</p>
+
+            <h2>
+                <span data-i18n="about.heading">Building useful digital</span>
+                <span data-i18n="about.headingHighlight">experiences</span>
+            </h2>
+
+        </div>
+
+        <div class="about-grid">
+
+            <div class="about-text">
+
+                <p data-i18n="about.p1">
+                    I am a Computer Science graduate and Web & App
+                    Developer with experience creating modern websites,
+                    digital menus, POS systems, mobile applications,
+                    and database-connected software.
+                </p>
+
+                <p data-i18n="about.p2">
+                    I enjoy transforming ideas into clean, practical,
+                    and user-friendly digital products. My focus is on
+                    professional design, responsive interfaces, and
+                    reliable functionality.
+                </p>
+
+                <a href="#contact" class="primary-button">
+                    <span data-i18n="about.workWithMe">Work With Me</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+            <div class="about-cards">
+
+                <div class="info-card">
+
+                    <i class="fa-solid fa-code"></i>
+
+                    <div>
+                        <h3 data-i18n="about.devTitle">Development</h3>
+                        <p data-i18n="about.devDesc">Web, mobile, and business systems</p>
+                    </div>
+
+                </div>
+
+                <div class="info-card">
+
+                    <i class="fa-solid fa-database"></i>
+
+                    <div>
+                        <h3 data-i18n="about.dbTitle">Database</h3>
+                        <p data-i18n="about.dbDesc">Firebase Firestore and SQLite</p>
+                    </div>
+
+                </div>
+
+                <div class="info-card">
+
+                    <i class="fa-solid fa-lightbulb"></i>
+
+                    <div>
+                        <h3 data-i18n="about.psTitle">Problem Solving</h3>
+                        <p data-i18n="about.psDesc">Practical and modern solutions</p>
+                    </div>
+
+                </div>
+
+                <div class="info-card">
+
+                    <i class="fa-solid fa-cash-register"></i>
+
+                    <div>
+                        <h3 data-i18n="about.menuTitle">Digital Menu & POS</h3>
+                        <p data-i18n="about.menuDesc">Creating modern menus and sales systems</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills" class="section dark-section">
+
+        <div class="section-heading center">
+
+            <p data-i18n="skills.title">MY SKILLS</p>
+
+            <h2>
+                <span data-i18n="skills.heading">Technologies I</span>
+                <span data-i18n="skills.headingHighlight">work with</span>
+            </h2>
+
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML5</h3>
+                <p>Modern website structure</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS3</h3>
+                <p>Responsive UI design</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-brands fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>Interactive web features</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-brands fa-flutter"></i>
+                <h3>Flutter</h3>
+                <p>Mobile applications</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-solid fa-fire"></i>
+                <h3>Firebase</h3>
+                <p>Authentication and database</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-solid fa-server"></i>
+                <h3>Node.js</h3>
+                <p>Backend development</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-solid fa-database"></i>
+                <h3>SQLite</h3>
+                <p>Local database systems</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-brands fa-git-alt"></i>
+                <h3>Git & GitHub</h3>
+                <p>Version control</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+
+        <div class="section-heading">
+
+            <p data-i18n="projects.title">FEATURED PROJECTS</p>
+
+            <h2>
+                <span data-i18n="projects.heading">Selected work and</span>
+                <span data-i18n="projects.headingHighlight">projects</span>
+            </h2>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+
+            <!-- SmartServe -->
+            <article class="project-card featured">
+
+                <div class="project-image project-gradient">
+
+                    <div class="project-icon">
+                        <i class="fa-solid fa-cash-register"></i>
+                    </div>
+
+                    <span class="featured-label">
+                        FEATURED
+                    </span>
+
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-type">
+                        <span data-i18n="projects.smartServeType">BUSINESS SOFTWARE</span>
+                    </div>
+
+                    <h3 data-i18n="projects.smartServeTitle">
+                        SmartServe POS
+                    </h3>
+
+                    <p data-i18n="projects.smartServeDesc">
+                        A modern restaurant management solution combining
+                        POS, cashier tools, product management, expenses,
+                        sales reports, and digital menu features.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Node.js</span>
+                        <span>SQLite</span>
+                        <span>Electron</span>
+                    </div>
+
+                    <a href="#contact" class="project-link">
+                        <span data-i18n="projects.viewProject">View Project</span>
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- Graduation Project -->
+            <article class="project-card">
+
+                <div class="project-image">
+
+                    <img
+                        src="images/hearthealth.jpg"
+                        alt="HeartHealth Analyzer project"
+                    >
+
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-type">
+                        <span data-i18n="projects.gradType">GRADUATION PROJECT</span>
+                    </div>
+
+                    <h3 data-i18n="projects.gradTitle">
+                        HeartHealth Analyzer
+                    </h3>
+
+                    <p data-i18n="projects.gradDesc">
+                        A web application designed to support heart disease
+                        awareness through symptom checking, educational
+                        information, risk assessment, and helpful resources.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <a href="https://github.com/"
+                       target="_blank"
+                       class="project-link">
+
+                        <span data-i18n="projects.githubRepo">GitHub Repository</span>
+
+                        <i class="fa-brands fa-github"></i>
+
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- Nike -->
+            <article class="project-card">
+
+                <div class="project-image">
+
+                    <img
+                        src="images/nike-app.jpg"
+                        alt="Nike Shoes Shop mobile application"
+                    >
+
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-type">
+                        <span data-i18n="projects.nikeType">MOBILE APPLICATION</span>
+                    </div>
+
+                    <h3 data-i18n="projects.nikeTitle">
+                        Nike Shoes Shop
+                    </h3>
+
+                    <p data-i18n="projects.nikeDesc">
+                        A modern mobile shopping application for browsing
+                        products and managing user data with Firebase.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Flutter</span>
+                        <span>Dart</span>
+                        <span>Firebase</span>
+                    </div>
+
+                    <a href="https://github.com/basaminfo9/nike-shoes-shop-app"
+                       target="_blank"
+                       class="project-link">
+
+                        <span data-i18n="projects.viewGithub">View on GitHub</span>
+
+                        <i class="fa-brands fa-github"></i>
+
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- Education -->
+    <section id="education" class="section dark-section">
+
+        <div class="section-heading">
+
+            <p data-i18n="education.title">EDUCATION & EXPERIENCE</p>
+
+            <h2>
+                <span data-i18n="education.heading">My professional</span>
+                <span data-i18n="education.headingHighlight">journey</span>
+            </h2>
+
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date" data-i18n="education.bsDate">
+                        2020 – 2025
+                    </span>
+
+                    <h3 data-i18n="education.bsTitle">
+                        Bachelor of Science in Computer Science
+                    </h3>
+
+                    <h4 data-i18n="education.uni">
+                        Cihan University – Erbil
+                    </h4>
+
+                    <p data-i18n="education.bsDesc">
+                        I completed my Bachelor's in Computer Science, and during my studies gained expertise in software development, web development, databases, and creating modern computer systems.
+                    </p>
+
+                    <div class="certificate-container">
+                        <img src="images/bachelors1.jpg" alt="Bachelor's Degree Certificate 1" class="certificate-image">
+                        <img src="images/bachelor2.jpg" alt="Bachelor's Degree Certificate 2" class="certificate-image">
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date" data-i18n="education.internDate">
+                        2023 – 2024
+                    </span>
+
+                    <h3 data-i18n="education.internTitle">
+                        Professional IT Training
+                    </h3>
+
+                    <h4 data-i18n="education.company">
+                        Dil Technology
+                    </h4>
+
+                    <p data-i18n="education.internDesc">
+                        During the training, I gained practical experience in IT support, network management, computer troubleshooting, system installation and maintenance, and assisting users.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section">
+
+        <div class="section-heading">
+
+            <p data-i18n="contact.title">GET IN TOUCH</p>
+
+            <h2 data-i18n="contact.heading">
+                Have a project in mind?
+            </h2>
+
+        </div>
+
+        <div class="contact-container">
+
+            <div class="contact-intro">
+                <p class="contact-description" data-i18n="contact.description">
+                    I am ready to create modern and professional digital solutions for various businesses.
+                </p>
+            </div>
+
+            <div class="services-grid">
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <h3 data-i18n="contact.service1Title">Modern Websites</h3>
+                    <p data-i18n="contact.service1Desc">Responsive websites for companies and businesses</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-mobile-screen"></i>
+                    </div>
+                    <h3 data-i18n="contact.service2Title">Mobile Apps</h3>
+                    <p data-i18n="contact.service2Desc">Android and iOS applications</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-cash-register"></i>
+                    </div>
+                    <h3 data-i18n="contact.service3Title">POS Systems</h3>
+                    <p data-i18n="contact.service3Desc">For shops, markets, pharmacies, cafes</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-qrcode"></i>
+                    </div>
+                    <h3 data-i18n="contact.service4Title">QR Menus</h3>
+                    <p data-i18n="contact.service4Desc">Digital menus for restaurants and cafes</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-chart-line"></i>
+                    </div>
+                    <h3 data-i18n="contact.service5Title">Business Management</h3>
+                    <p data-i18n="contact.service5Desc">Custom dashboards for sales and analytics</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3 data-i18n="contact.service6Title">Custom Software</h3>
+                    <p data-i18n="contact.service6Desc">Tailored solutions for your needs</p>
+                </div>
+
+            </div>
+
+            <div class="contact-cta">
+                <p class="cta-highlight" data-i18n="contact.ctaHighlight">Turn your ideas into a smart, fast and professional system.</p>
+                
+                <div class="contact-buttons">
+
+                    <a href="mailto:basaminfo9@gmail.com"
+                       class="primary-button">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                        <span data-i18n="contact.sendEmail">Send Email</span>
+
+                    </a>
+
+                    <a href="tel:+9647506454656"
+                       class="secondary-button">
+
+                        <i class="fa-solid fa-phone-flip"></i>
+
+                        <span data-i18n="contact.phone">+964 750 645 4656</span>
+
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Languages -->
+    <section id="languages" class="section">
+
+        <div class="section-heading">
+
+            <p data-i18n="languages.title">LANGUAGES</p>
+
+            <h2>
+                <span data-i18n="languages.heading">Language</span>
+                <span data-i18n="languages.headingHighlight">Proficiency</span>
+            </h2>
+
+        </div>
+
+        <div class="languages-card">
+
+            <div class="language-item">
+
+                <div class="language-header">
+                    <img src="https://cdn-icons-png.flaticon.com/128/12359/12359942.png" alt="Kurdistan flag" class="lang-flag-small">
+                    <span class="language-name" data-i18n="languages.kurdish">Kurdish (Sorani)</span>
+                    <span class="language-percent">100%</span>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 100%;"></div>
+                </div>
+
+            </div>
+
+            <div class="language-item">
+
+                <div class="language-header">
+                    <img src="https://cdn-icons-png.flaticon.com/128/4009/4009124.png" alt="British flag" class="lang-flag-small">
+                    <span class="language-name" data-i18n="languages.english">English</span>
+                    <span class="language-percent">70%</span>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 70%;"></div>
+                </div>
+
+            </div>
+
+            <div class="language-item">
+
+                <div class="language-header">
+                    <img src="https://cdn-icons-png.flaticon.com/128/16022/16022229.png" alt="Iraqi flag" class="lang-flag-small">
+                    <span class="language-name" data-i18n="languages.arabic">Arabic</span>
+                    <span class="language-percent">60%</span>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 60%;"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- Footer -->
+<footer>
+
+    <a href="#home" class="logo">
+        <span>&lt;</span>Basam<span>/&gt;</span>
+    </a>
+
+    <p>
+        <span data-i18n="footer.copyright">© 2026 Basam Ali. Designed and developed by me.</span>
+    </p>
+
+    <div class="footer-socials">
+
+        <a href="https://github.com/basaminfo9"
+           target="_blank">
+
+            <i class="fa-brands fa-github"></i>
+
+        </a>
+
+        <a href="https://www.instagram.com/smartserve_tech?igsh=MWcwNW50emg3dTNmcg%3D%3D&utm_source=qr"
+           target="_blank">
+
+            <i class="fa-brands fa-instagram"></i>
+
+        </a>
+
+        <a href="https://www.tiktok.com/@smartserve1?_r=1&_t=ZS-98WHY6IXDy0"
+           target="_blank">
+
+            <i class="fa-brands fa-tiktok"></i>
+
+        </a>
+
+        <a href="https://www.facebook.com/share/1K3ViqYo79/?mibextid=wwXIfr"
+           target="_blank">
+
+            <i class="fa-brands fa-facebook-f"></i>
+
+        </a>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+```
+
+</body>
+</html>
