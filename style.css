@@ -464,21 +464,22 @@ justify-content: center;
     border-radius: 32px;
     background: linear-gradient(
         60deg,
-        #ff0000,
-        #ff7300,
-        #fffb00,
-        #48ff00,
-        #00ffd5,
-        #002bff,
-        #7a00ff,
-        #ff00c8,
-        #ff0000
+        #001f3f,
+        #003366,
+        #004080,
+        #0059b3,
+        #0073e6,
+        #0088ff,
+        #00a3ff,
+        #00bfff,
+        #00d4ff,
+        #001f3f
     );
     background-size: 300% 300%;
     animation: gradientBorder 4s ease infinite;
-    box-shadow: 0 0 30px rgba(255, 0, 0, 0.3),
-                0 0 60px rgba(0, 255, 255, 0.3),
-                0 0 90px rgba(255, 0, 255, 0.3);
+    box-shadow: 0 0 30px rgba(0, 115, 230, 0.4),
+                0 0 60px rgba(0, 136, 255, 0.3),
+                0 0 90px rgba(0, 191, 255, 0.2);
 }
 
 @keyframes gradientBorder {
@@ -502,19 +503,20 @@ justify-content: center;
 .light-theme .image-border {
     background: linear-gradient(
         60deg,
-        #00d2ff,
-        #3a7bd5,
-        #8e2de2,
-        #f953c6,
-        #00f260,
-        #0575e6,
-        #00d2ff
+        #003366,
+        #0059b3,
+        #0073e6,
+        #0088ff,
+        #00a3ff,
+        #00bfff,
+        #00d4ff,
+        #0059b3
     );
     background-size: 300% 300%;
     animation: gradientBorder 4s ease infinite;
-    box-shadow: 0 0 30px rgba(0, 210, 255, 0.4),
-                0 0 60px rgba(142, 45, 226, 0.4),
-                0 0 90px rgba(249, 83, 198, 0.4);
+    box-shadow: 0 0 30px rgba(0, 89, 179, 0.4),
+                0 0 60px rgba(0, 115, 230, 0.3),
+                0 0 90px rgba(0, 191, 255, 0.2);
 }
 
 .image-border img {
