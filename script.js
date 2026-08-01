@@ -97,7 +97,7 @@ const translations = {
             service6Desc: "Tailored solutions for your needs",
             ctaHighlight: "Turn your ideas into a smart, fast and professional system.",
             sendEmail: "WhatsApp",
-            phone: "Email"
+            phone: "0750 645 46 56"
         },
         footer: {
             copyright: "© 2026 Basam Ali. Designed and developed by me."
@@ -200,7 +200,7 @@ const translations = {
             service6Desc: "حلول مخصصة حسب احتياجاتك",
             ctaHighlight: "حول أفكارك إلى نظام ذكي وسريع واحترافي.",
             sendEmail: "واتساب",
-            phone: "إيميل"
+            phone: "0750 645 46 56"
         },
         footer: {
             copyright: "© 2026 بسام علي. تصميم وتطوير من قبلي."
@@ -303,7 +303,7 @@ const translations = {
             service6Desc: "چارەسەری تایبەت بەپێی پێداویستییەکان",
             ctaHighlight: "بیرۆکەکانت بگۆڕە بۆ سیستەمێکی زیرەک، خێرا و پیشەیی.",
             sendEmail: "واتساپ",
-            phone: "ئیمەیڵ"
+            phone: "0750 645 46 56"
         },
         footer: {
             copyright: "© 2026 بەسام علی. دیزاین و پەرەسەندن لەلایەن من."
