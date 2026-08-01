@@ -53,9 +53,12 @@ const translations = {
             gradTitle: "HeartHealth Analyzer",
             gradDesc: "A web app for heart disease awareness and information, featuring symptom checking, risk assessment, educational content and helpful resources.",
             githubRepo: "GitHub Repository",
-            nikeType: "Mobile App",
-            nikeTitle: "Nike Shoes Shop",
-            nikeDesc: "A modern mobile app for online shopping, to browse products and manage user data using Firebase.",
+            shoesType: "Mobile App",
+            shoesTitle: "Shoes Shop",
+            shoesDesc: "A modern mobile app for online shopping, to browse products and manage user data using Firebase.",
+            menuType: "Digital Menu",
+            menuTitle: "Shawarma Menu",
+            menuDesc: "A modern digital menu for restaurants and cafes with QR code integration.",
             viewGithub: "View on GitHub"
         },
         education: {
@@ -156,9 +159,12 @@ const translations = {
             gradTitle: "محلل صحة القلب",
             gradDesc: "تطبيق ويب للتوعية بمعلومات أمراض القلب، يتضمن فحص الأعراض، تقييم المخاطر، المحتوى التعليمي والموارد المفيدة.",
             githubRepo: "مستودع GitHub",
-            nikeType: "تطبيق الهاتف المحمول",
-            nikeTitle: "متجر أحذية Nike",
-            nikeDesc: "تطبيق هاتف محمول حديث للتسوق عبر الإنترنت، لتصفح المنتجات وإدارة بيانات المستخدمين باستخدام Firebase.",
+            shoesType: "تطبيق الهاتف المحمول",
+            shoesTitle: "متجر أحذية",
+            shoesDesc: "تطبيق هاتف محمول حديث للتسوق عبر الإنترنت، لتصفح المنتجات وإدارة بيانات المستخدمين باستخدام Firebase.",
+            menuType: "القائمة الرقمية",
+            menuTitle: "قائمة شاورما",
+            menuDesc: "قائمة رقمية حديثة للمطاعم والمقاهي مع تكامل رمز QR.",
             viewGithub: "عرض على GitHub"
         },
         education: {
@@ -259,9 +265,12 @@ const translations = {
             gradTitle: "HeartHealth Analyzer",
             gradDesc: "ئەپی وێبێک بۆ هۆشیاری و زانیاری نەخۆشییەکانی دڵ، کە تایبەتمەندی پشکنینی نیشانەکان، هەڵسەنگاندنی مەترسی، زانیاری پەروەردەیی و سەرچاوە بەسوودەکان پێشکەش دەکات.",
             githubRepo: "کۆگای GitHub",
-            nikeType: "ئەپی مۆبایل",
-            nikeTitle: "Nike Shoes Shop",
-            nikeDesc: "ئەپی مۆبایلێکی مۆدێرن بۆ فرۆشگای ئۆنلاین، بۆ بینینی بەرهەمەکان و بەڕێوەبردنی داتای بەکارهێنەران بە بەکارهێنانی Firebase.",
+            shoesType: "ئەپی مۆبایل",
+            shoesTitle: "فرۆشگای پێڵاو",
+            shoesDesc: "ئەپی مۆبایلێکی مۆدێرن بۆ فرۆشگای ئۆنلاین، بۆ بینینی بەرهەمەکان و بەڕێوەبردنی داتای بەکارهێنەران بە بەکارهێنانی Firebase.",
+            menuType: "مێنیوی دیجیتاڵی",
+            menuTitle: "مێنیوی شاورما",
+            menuDesc: "مێنیوی دیجیتاڵی مۆدێرن بۆ ڕێستۆرانت و کافێ بە تێکەڵکردنی کۆدی QR.",
             viewGithub: "بینین لە GitHub"
         },
         education: {
